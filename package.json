@@ -1,6 +1,6 @@
 {
   "name": "is-grunt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A module to determine if current directory is a grunt project.",
   "main": "index.js",
   "author": "Jeff Andrews",
