@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "find-up": "^2.1.0",
-    "has-task-runner": "^0.2.0",
+    "has-task-runner": "^0.3.2",
     "path-exists": "^3.0.0",
     "pkg-up": "^1.0.0",
     "read-pkg-up": "^2.0.0",
