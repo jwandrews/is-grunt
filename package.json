@@ -1,0 +1,24 @@
+{
+  "name": "is-grunt",
+  "version": "0.1.0",
+  "description": "A module to determine if current directory is a grunt project.",
+  "main": "index.js",
+  "author": "Jeff Andrews",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nyc": "^10.0.0"
+  },
+  "dependencies": {
+    "find-up": "^2.1.0",
+    "path-exists": "^3.0.0",
+    "pkg-up": "^1.0.0",
+    "read-pkg-up": "^2.0.0",
+    "resolve-pkg": "^0.2.0"
+  },
+  "scripts": {
+    "coverage": "nyc ava",
+    "test": "ava",
+    "test:watch": "ava --watch"
+  }
+}
