@@ -3,14 +3,16 @@
 const __hasTaskRunner__ = require( 'has-task-runner' );
 
 const isGrunt = path => {
-  if ( path === '' ) {
-    throw new Error( 'No path specified.' );
-  }
+  return new Promise(( resolve, reject ) => {
+    if ( path === '' ) {
+      reject( new Error( 'No path specified.' ));
+    }
 
-  return __hasTaskRunner__( 'grunt', { path })
-    .then(({ runnerExists }) => {
-      return runnerExists;
-    });
+    __hasTaskRunner__( 'grunt', { path })
+      .then(({ runnerExists }) => {
+        resolve( runnerExists );
+      });
+  });
 };
 
 module.exports = { isGrunt };
