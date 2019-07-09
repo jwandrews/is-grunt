@@ -21,5 +21,11 @@
     "coverage": "nyc ava",
     "test": "ava",
     "test:watch": "ava --watch"
+  },
+  "ava": {
+    "files": [
+      "test/**/*",
+      "!test/fixtures"
+    ]
   }
 }
