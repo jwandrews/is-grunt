@@ -12,7 +12,7 @@
     "ava": "^2.2.0",
     "eslint": "^6.0.0",
     "eslint-config-carpages": "^4.0.1",
-    "nyc": "^14.0.0"
+    "nyc": "^15.0.0"
   },
   "dependencies": {
     "has-task-runner": "^0.4.1"
