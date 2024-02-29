@@ -9,7 +9,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "ava": "^5.0.1",
+    "ava": "^6.1.2",
     "eslint": "^8.0.0",
     "eslint-config-carpages": "^8.1.0",
     "nyc": "^15.0.0"
